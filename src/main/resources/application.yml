@@ -5,4 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/hjhu/Projects/JavaX/amaz-config
+          uri: https://github.com/WarnerHooh/amaz-config.git
+          search-paths: 'app-configs/{application}'
+          timeout: 60
+          clone-on-start: true
+          force-pull: true
+          basedir: /tmp/amaz-config/app-configs
+
