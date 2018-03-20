@@ -10,5 +10,5 @@ spring:
           timeout: 60
           clone-on-start: true
           force-pull: true
-          basedir: /tmp/amaz-config/app-configs
+          basedir: /tmp/amaz-config
 
